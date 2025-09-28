@@ -20,28 +20,11 @@ It ingests contracts in multiple formats, detects risky clauses, provides plain-
 
 🔒 Privacy-first → All processing is local
 
-📂 Project Structure
-legal-assistant/
-│
-├── backend/              # FastAPI backend
-│   ├── main.py           # API endpoints
-│   ├── analysis.py       # Contract analyzer
-│   ├── rules.py          # Clause rules & heuristics
-│   ├── ingest.py         # PDF/DOCX/TXT ingestion
-│   ├── llm.py            # LLM integration (Groq API)
-│   ├── models.py         # Pydantic models
-│   └── tests/            # Unit tests
-│
-├── frontend/             # Streamlit frontend
-│   └── app.py            # UI dashboard
-│
-├── risks.json            # Configurable risk weights
-├── README.md             # Documentation
-└── requirements.txt      # Dependencies
+
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
-git clone https://github.com/YOUR_USERNAME/legal-assistant.git
+git clone https://github.com/divyaravikumarr/legal-assistant.git
 cd legal-assistant
 
 2️⃣ Backend Setup
@@ -100,7 +83,7 @@ LLM (optional): Groq API (Llama 3.3)
 
 DevOps: Docker, GitHub Actions (CI/CD planned)
 
-📸 Screenshots (Coming Soon)
+
 
 📤 Upload Page
 
@@ -121,3 +104,4 @@ Open a Pull Request 🚀
 📜 License
 
 This project is licensed under the MIT License – free to use & modify.
+
