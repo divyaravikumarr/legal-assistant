@@ -1,0 +1,12 @@
+{
+  "unlimited_liability": 6,
+  "liability_cap_missing": 2,
+  "unilateral_indemnity": 4,
+  "payment_terms_gt_45d": 2,
+  "no_late_fee": 1,
+  "unilateral_termination": 2,
+  "short_notice": 1,
+  "non_indian_law": 2,
+  "foreign_forum": 1,
+  "confidentiality_perpetual": 2
+}
