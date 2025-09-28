@@ -1,4 +1,4 @@
-⚖️ SME Legal Assistant
+********⚖️ SME Legal Assistant********
 <p align="center"> <img src="https://img.shields.io/badge/Python-3.9%2B-blue?logo=python" /> <img src="https://img.shields.io/badge/FastAPI-0.111+-009688?logo=fastapi" /> <img src="https://img.shields.io/badge/Streamlit-frontend-FF4B4B?logo=streamlit" /> <img src="https://img.shields.io/badge/License-MIT-green" /> </p>
 
 SME Legal Assistant is an AI-powered contract analysis tool designed for Small & Medium Enterprises (SMEs) in India.
@@ -104,4 +104,5 @@ Open a Pull Request 🚀
 📜 License
 
 This project is licensed under the MIT License – free to use & modify.
+
 
