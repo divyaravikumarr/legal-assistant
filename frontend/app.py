@@ -138,7 +138,13 @@ if "analysis_result" not in st.session_state:
 with tab1:
     st.header("📤 Upload Your Contract")
     st.markdown("Upload a PDF, DOCX, or TXT file to analyze contract risks.")
-    uploaded = st.file_uploader("", type=["pdf", "docx", "txt"], label_visibility="collapsed")
+    uploaded = st.file_uploader(
+    "Upload contract file",  # non-empty, meaningful label
+    type=["pdf", "docx", "txt"],
+    label_visibility="collapsed",
+    key="contract_upload",
+    help="PDF, DOCX, or TXT up to ~25MB"
+)  
     if st.button("🚀 Analyze Contract", type="primary", use_container_width=True):
         if not uploaded:
             st.error("Please upload a contract file.")
