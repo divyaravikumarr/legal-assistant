@@ -110,15 +110,7 @@ GROQ_MODEL=llama-3.3-70b-versatile
 
 ---
 
-### 📸 Screenshots
 
-📤 **Upload Page**
-📊 **Risk Dashboard**
-📑 **Exported PDF Report**
-
-*(Add actual screenshots here for a polished GitHub look!)*
-
----
 
 ### 🤝 Contributing
 
@@ -134,4 +126,5 @@ GROQ_MODEL=llama-3.3-70b-versatile
 This project is licensed under the **MIT License** – free to use & modify.
 
 ---
+
 
